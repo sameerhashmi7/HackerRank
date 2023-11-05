@@ -1,0 +1,19 @@
+.myclass{
+    color: white;
+    background-image: url(../assets/bgtop.jpg);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    justify-content: space-around;
+
+}
