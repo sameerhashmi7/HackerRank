@@ -8,46 +8,98 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
+  <div class="main">
     <div class="container-fluid d-flex justify-content-end myclass">
-      <ul>
-        <li><a href="#contact us" style="color: white;">contact us</a></li> |
-        <li><a href="#login" style="color: white;">Login</a></li>
-      </ul> 
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-            <button type="submit">Request A Demo</button>
-            <button type="submit">Sign Up</button>
-          </div>
+    <ul>
+      <li><a class="anchor" href="#contact us" style="color: white;">contact us</a></li> |
+      <li><a class="anchor" href="#login" style="color: white;">Login</a></li>
+    </ul> 
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light pt-0">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt="" height="90px" width="170px
+          "></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">solution</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Resources
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+          <button type="submit" class="btn btn-md px-4 btn-light mx-2">Request A Demo</button>
+          <button type="submit" class="btn btn-success btn-md px-4 gap-3 sign" >Sign Up</button>
         </div>
       </nav>
+      <div class="px-4 py-5 my-5 text-center mx-auto my-auto div1">
+        <h1 class="display-5 m-auto my-5">Skills speak louder than words</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 fs-5">We help companies develop the strongest tech teams around. We help candidates sharpen their tech skills and pursue job opportunities.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center ">
+            <button type="button" class="btn btn-success btn-lg px-4 gap-3 sign ">Sign Up</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4 fw-normal ">Request Demo</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 mx-auto">
+        <p class="lead mb-4 fs-6 fw-normal">Over 40% of developers worldwide and 3,000 companies use HackerRank</p>
+        <div class="container-fluid d-flex flex-row imgss">
+          <img src="./assets/peloton.png" alt="">
+          <img src="./assets/atlassian.png" alt="">
+          <img src="./assets/bloomberg.png" alt="">
+          <img src="./assets/vmware.png" alt="">
+          <img src="./assets/stripe.png" alt="">
+          <img src="./assets/goldman.png" alt="">
+          <img src="./assets/adobe.png" alt="">
+          <img src="./assets/linkedin.png" alt="">
+        </div>
+      <!-- <div class="container header">
+        <div class="row">
+          <div class="col col col-lg-9 mx-auto header">
+            <h1>Skills speak louder <span>than words</span> </h1>
+          </div>
+          <div class="col col col-lg-7 mx-auto paragraph"><p>We help companies develop the strongest tech teams around. We help <span>candidates sharpen their tech skills and pursue job opportunities.</span></p></div>
+        </div>
+  
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col bg-primary buttons1">
+            <button type="submit" class="sign">Sign Up</button>
+            <button type="submit" class="Request">Request Demo</button>
+          </div>
+        </div>
+      </div>
+     --></div>
+      </div>
+      <div class="main2">
+        <div class="px-4 py-5 my-5 text-center mx-auto my-auto div2">
+          <h1 class="display-5 m-auto my-5">It’s not a pipeline problem.</h1>
+          <h1 class="display-5 m-auto my-5">It’s a spotlight problem. </h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4 fs-5">Tech hiring needs a reset. From prepping for jobs and practicing coding to running a world-class technical interview, give developers the tools they need to showcase their skills, passion, and potential.</p>
+           </div>
+      </div>
+      </div>
+  
     
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
