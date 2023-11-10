@@ -1,0 +1,64 @@
+.main{
+    background-image: url(../assets/pxfuel.jpg);
+    width: 100%;
+}
+.anchor{
+    text-decoration: none;
+}
+.myclass{
+    width: 100%;
+    color: white;
+    background-image: url(../assets/bgtop.jpg);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    justify-content: space-around;
+
+}
+.my-container{
+    width: 100%;
+    height: 98vh;
+}
+.left-login{
+    background-image: url(../assets/pxfuel.jpg);
+    /* margin-top: 100px ; */
+    padding-top: 100px;
+    width: 50%;
+    height: 98vh;
+}
+.left-login span{
+    width: 12%;
+}
+.right-login{
+    width: 50%;
+    height: 80vh;
+}
+.my-navbar{
+    display: flex;
+    position: fixed;
+}
+.my-row{
+
+}
+.my-cont{
+    height: 98vh;
+}
+.left1-login{
+    padding-top: 100px;
+    width: 50%;
+    height: 98vh;
+}
+.anchor{
+    text-decoration: none;
+    color: white;
+}
