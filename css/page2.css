@@ -30,6 +30,8 @@ li{
     height: 98vh;
 }
 .left-login{
+    border: solid 1px green;
+    border-radius: 40px;
     background-image: url(../assets/pxfuel.jpg);
     /* margin-top: 100px ; */
     padding-top: 100px;
@@ -41,7 +43,7 @@ li{
 }
 .right-login{
     width: 50%;
-    height: 80vh;
+    height: 98vh;
 }
 .my-navbar{
     display: flex;
@@ -61,4 +63,12 @@ li{
 .anchor{
     text-decoration: none;
     color: white;
+}
+.my-sign{
+    margin-left: 230px;
+}
+.anchor1{
+    color: black;
+}
+.my-footer{
 }
